@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>• Atividade 02 - Aprimorando Site</title>
+    <!-- Estilos CSS -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container-global {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      .header {
+        text-align: center;
+      }
+
+      .header h1 {
+        padding: 10px 0 10px 0;
+        color: rgb(25, 171, 171);
+      }
+
+      .header p {
+        padding: 10px 0 10px 0;
+      }
+
+      .navbar {
+        background-color: rgba(25, 171, 171, 0.508);
+        padding: 15px;
+      }
+
+      .navbar a {
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        margin: 10px;
+        padding-bottom: 4px;
+      }
+
+      .navbar a:hover {
+        color: black;
+        border-bottom: 2px solid;
+      }
+
+      .main {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+      }
+
+      .main h2 {
+        border-left: 5px solid;
+        border-color: rgb(76, 168, 180);
+        padding-left: 10px;
+      }
+
+      .main p {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: justify;
+      }
+
+      .section h3 {
+        border-left: 5px solid;
+        border-color: rgb(76, 168, 180);
+        padding-left: 10px;
+      }
+
+      .section ul {
+        padding: 10px 0 30px 30px;
+        list-style-type: circle;
+        cursor: pointer;
+      }
+
+      .section-midia h3 {
+        border-left: 5px solid;
+        border-color: rgb(76, 168, 180);
+        padding-left: 10px;
+      }
+
+      .section-midia div {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      audio,
+      video {
+        width: 70%;
+        margin: 10px;
+      }
+
+      .footer {
+        width: 100%;
+        height: 50px;
+        color: white;
+        font-weight: 600;
+        background-color: rgba(25, 171, 171, 0.508);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-global">
+      <!-- Área de Cabeçalho/Navegação -->
+      <header class="header">
+        <h1>DevStart</h1>
+        <h2>Primeiros Passos</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem neque molestias aut recusandae dolore consectetur quod eius aliquid mollitia illum labore doloribus quis sunt odit, culpa obcaecati minima ipsa voluptate cupiditate, ab laudantium pariatur! Officia, voluptatibus. Cupiditate sunt, incidunt quisquam, eius est dicta mollitia unde sequi distinctio voluptate doloribus optio?
+        </p>
+        <nav class="navbar">
+          <a href="/">Home</a>
+          <a href="#artigo">Artigo</a>
+          <a href="#lista">Lista</a>
+          <a href="#midias">Mídias</a>
+          <a href="">Sobre</a>
+        </nav>
+      </header>
+      <!-- Conteúdo Principal -->
+      <main class="main">
+        <article id="artigo">
+          <h2>Meu primeiro artigo</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, praesentium labore quia earum ipsa aut officiis magni sunt, provident aperiam nihil sapiente recusandae enim et minus similique, iste quisquam placeat tenetur in eligendi voluptate laudantium amet. Dolorum aut illo corrupti mollitia dolorem, provident esse, numquam impedit ipsa pariatur veniam! Et veritatis laborum a
+            ex dolorum optio voluptatem itaque! Nesciunt, rerum consequatur nulla vero, quisquam, illo odit consectetur incidunt ut cupiditate harum voluptas sed culpa ipsa? Eligendi unde nobis tenetur et exercitationem error asperiores, pariatur blanditiis qui nemo, assumenda ex! Nemo cum libero eveniet molestias repellendus eos voluptatum itaque impedit ratione voluptatem, molestiae illum nam
+            quae beatae ex porro soluta reiciendis enim voluptate? Assumenda mollitia provident ab totam repellat consectetur! Eligendi culpa iure, earum aperiam molestias facilis temporibus sunt enim, tenetur quasi, vitae laborum quo rerum expedita asperiores cum harum explicabo beatae tempore? Qui unde quis sunt, hic nulla expedita animi harum distinctio. Dolorem fugiat sapiente alias distinctio
+            quod neque autem, vitae iure minima inventore, ipsa iusto laudantium repudiandae sit nihil? Officiis, facilis incidunt ut, possimus, reiciendis voluptates animi hic repellendus nam repudiandae sunt? Officia quis iure, vel molestiae iusto ab quo nesciunt esse blanditiis omnis nostrum non? Eveniet mollitia est debitis ipsam ullam aut quis dicta fugit, commodi possimus officia in, tempora
+            doloremque voluptatem animi provident alias nostrum iure nam asperiores et. Vel, quidem necessitatibus excepturi voluptas non, facere amet sed at aperiam velit eaque blanditiis ipsa obcaecati. Placeat aliquam explicabo mollitia blanditiis impedit! Odit autem vero illo aperiam veritatis excepturi ex, ut libero rem ipsa illum maiores obcaecati minus velit sint! Aliquam fugiat fuga
+            dolorum ipsam harum, laudantium reiciendis sapiente distinctio! Dolor earum vero ratione laudantium at ducimus nisi dolorem, odit quo ab deserunt, quod corrupti est architecto expedita. Odit asperiores voluptatibus illum, animi nesciunt atque adipisci! Corrupti, distinctio.
+          </p>
+        </article>
+        <!-- Seção de Lista -->
+        <section class="section" id="lista">
+          <h3>Hard Skills</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+          </ul>
+        </section>
+        <!-- Seção de Conteúdo de Mídia -->
+        <section class="section-midia" id="midias">
+          <h3>Conteúdos de Mídia</h3>
+          <div>
+            <audio src="/midias/the-sound-of-a-mountain-stream-_nature-sound-201930.mp3" controls></audio>
+          </div>
+          <div>
+            <video src="/midias/136268-764387688_small.mp4" controls></video>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <p>&copy 2024 Todos os direitos reservados.</p>
+      </footer>
+    </div>
+  </body>
+</html>

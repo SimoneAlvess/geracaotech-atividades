@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-global {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: purple;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+header h1 {
+  font-weight: 400;
+}
+
+main>p {
+  text-align: justify;
+  padding: 4rem 5rem 7rem 5rem;
+  padding-bottom: 7rem;
+}
+
+.banner {
+  background-color: rgb(108, 87, 199);
+  height: 27rem;
+  margin-bottom: 7rem;
+}
+
+.image {
+  object-fit: cover;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+}
+
+.equipe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  text-align: center;
+  margin-bottom: 7rem;
+  padding-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.title-sections {
+  text-align: center;
+  color: rgb(181, 16, 186);
+}
+
+.title-divider {
+  border-bottom: 2px solid rgb(181, 16, 186);
+  padding-bottom: 20px;
+  width: 8rem;
+  margin: auto;
+  color: rgb(181, 16, 186);
+}
+
+.team h2 {
+  color: rgb(181, 16, 186);
+  padding-top: 0.3rem;
+}
+
+.team p {
+  color: rgb(181, 16, 186);
+  font-weight: 600;
+}
+
+.footer {
+  background-color: purple;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}

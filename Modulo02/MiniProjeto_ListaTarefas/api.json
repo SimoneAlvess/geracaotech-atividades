@@ -1,0 +1,34 @@
+{
+  "tarefas": [
+    {
+      "titulo": "Tarefa 01",
+      "descricao": "Estudar",
+      "id": 1
+    },
+    {
+      "titulo": "Tarefa 02",
+      "descricao": "Fazer alguma coisa",
+      "id": 3
+    },
+    {
+      "titulo": "Tarefa 03",
+      "descricao": "Ler um livro",
+      "id": 4
+    },
+    {
+      "titulo": "Tarefa 04",
+      "descricao": "Estudar CSS",
+      "id": 5
+    },
+    {
+      "titulo": "Tarefa 05",
+      "descricao": "Resumi conteúdo estudado",
+      "id": 6
+    },
+    {
+      "titulo": "Tarefa 06",
+      "descricao": "Fazer exercícios",
+      "id": 7
+    }
+  ]
+}

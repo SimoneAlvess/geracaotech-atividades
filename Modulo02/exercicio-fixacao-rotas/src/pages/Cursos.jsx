@@ -3,8 +3,7 @@ import { Link } from "react-router-dom"
 const Cursos = () => {
   return (
     <>
-      <main className="style-li">
-        <h1>Cursos</h1>
+     <h1>Cursos</h1>
         <ul>
           <li>
             <Link to={"/curso/1/Analise de dados com Python"}>Analise de dados com Python</Link>
@@ -22,8 +21,7 @@ const Cursos = () => {
             <Link to={"/curso/5/Segurança da Informação"}>Segurança da Informação</Link>
           </li>
         </ul>
-      </main>
-    </>
+      </>
   );
 }
 

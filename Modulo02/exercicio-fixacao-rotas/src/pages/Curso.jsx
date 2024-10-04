@@ -1,14 +1,12 @@
-import { useParams } from "react-router-dom"
+import { useParams } from "react-router-dom";
 
 const Curso = () => {
   const { nome } = useParams();
   return (
     <>
-      <main>
-        <h1>Curso de {nome}</h1>
-      </main>
+      <h1>Curso de {nome}</h1>
     </>
-  )
-}
+  );
+};
 
-export default Curso
+export default Curso;

@@ -10,7 +10,7 @@ const FooterContainer = styled.footer`
 
 const Footer = () => {
   return (
-    <FooterContainer className="bg-yellow-600">
+    <FooterContainer className="bg-cyan-800">
       <p>&copy; 2024. Todos os direitos reservados.</p>
     </FooterContainer>
   );

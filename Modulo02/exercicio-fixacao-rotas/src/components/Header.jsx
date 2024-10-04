@@ -28,7 +28,7 @@ const HeaderContainer = styled.header`
 
 const Header = () => {
   return (
-    <HeaderContainer className="bg-yellow-600">
+    <HeaderContainer className="bg-cyan-800">
       <h1>LOGO</h1>
       <nav>
         <ul>

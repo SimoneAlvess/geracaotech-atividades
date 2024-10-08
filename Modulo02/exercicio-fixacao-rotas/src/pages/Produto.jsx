@@ -1,12 +1,12 @@
 import { useParams } from "react-router-dom";
 
-const Curso = () => {
+const Produto = () => {
   const { nome } = useParams();
   return (
     <>
-      <h1>Curso de {nome}</h1>
+      <h1>Produto {nome}</h1>
     </>
   );
 };
 
-export default Curso;
+export default Produto;

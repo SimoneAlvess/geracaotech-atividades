@@ -5,22 +5,30 @@ import Contact from "../pages/Contact";
 import Login from "../pages/Login";
 import { PageLayout } from "../layouts/PageLayout";
 import Notfound from "../pages/Notfound";
-import Cursos from "../pages/Cursos";
-import Curso from "../pages/Curso";
+import Produtos from "../pages/Produtos";
+import Produto from "../pages/Produto";
+import { useContext } from "react";
+import { Context } from "../contexts/AuthContext";
 
 const Paths = () => {
+  const { logado } = useContext(Context);
+
   return (
     <>
       <BrowserRouter>
         <Routes>
           <Route path="/login" element={<Login />} />
-          <Route path="/" element={<PageLayout />}>
-            <Route index element={<Home />} />
-            <Route path="/cursos" element={<Cursos />} />
-            <Route path="/curso/:id/:nome" element={<Curso />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-          </Route>
+          {logado && (
+            <>
+              <Route path="/" element={<PageLayout />}>
+                <Route index element={<Home />} />
+                <Route path="/produtos" element={<Produtos />} />
+                <Route path="/produto/:id/:nome" element={<Produto />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
+              </Route>
+            </>
+          )}
           <Route path="*" element={<Notfound />} />
         </Routes>
       </BrowserRouter>

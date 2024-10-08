@@ -13,5 +13,6 @@ Essas atividades foram desenvolvidas com as seguintes tecnologias:
 - JavaScript
 - Git e GitHub
 - Bootstrap
+- React 
 
 
